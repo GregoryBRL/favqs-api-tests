@@ -52,7 +52,7 @@ npm test
 favqs-api-tests/
 ├── .env
 ├── .gitignore
-├── jest.config.mjs
+├── jest.config.js
 ├── package.json
 ├── tsconfig.json
 ├── tests/
@@ -65,11 +65,11 @@ favqs-api-tests/
 
 ### 1. Create User
 - Sends `POST /users` request  
-- Verifies `login` and `email` in response  
+- Verifies `login` in response  
 
 ### 2. Update User
 - Sends `PUT /users/:login` request  
-- Verifies updated `login` and `email`  
+- Verifies updated `login` 
 
 ---
 
